@@ -11,7 +11,6 @@ balance = 10000
 total_profit_loss = 0
 bot_accuracy = 0.7
 profit_stop = 0.02
-chance_of_breaking_limit = 0.05
 trade_percentage = 0.25
 loss_stop = 0.01
 
