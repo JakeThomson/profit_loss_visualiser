@@ -38,5 +38,5 @@ fig = go.Figure(
 
 plotly.offline.plot(fig, filename='plot.html', auto_open=False)
 webbrowser.get('C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s') \
-    .open('file:///D:/Uni/Year%203/Dissertation/Application/balance/plot.html')
+    .open(.open(os.path.join(os.getcwd(), "plot.html")))
 
